@@ -11,7 +11,8 @@ if ($q==""||$q==null) {
     echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'"</script>';
   }else{
     //默认谷歌
- 		echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'"</script>';
+        echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'"</script>';
+    //可以改为百度
     //echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'"</script>';
   }
 };
@@ -153,13 +154,13 @@ if ($q==""||$q==null) {
                 </ul>
             </div>
         </div>
-        <div class="foot">© 2016-<?php echo date("Y") ?> by <a href="https://yyv.me/">歪歪喂</a> . All rights reserved.</div>
+        <div class="foot">© 2016-<?php echo date("Y") ?> by <a href="https://yyv.me/">歪歪喂</a> . All rights reserved.  <a rel="nofollow" href="https://5iux.github.io/sou/" target="_blank" style="font-size: 12px;"><i class="iconfont icon-github"></i></a></div>
     </div>
 <!--
 作者:D.Young
 主页：https://yyv.me/
 github：https://github.com/5iux/sou
-日期：2019-07-12
+日期：2019-07-26
 版权所有，请勿删除
 -->
 </body>
